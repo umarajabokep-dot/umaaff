@@ -8,7 +8,7 @@ export default {
 
     // ---- Helper: load links.txt dari GitHub + edge cache 60s
     async function loadLinks() {
-      const RAW_URL = "https://raw.githubusercontent.com/Hecate1337-py/shopeeaff/main/links.txt";
+      const RAW_URL = "https://raw.githubusercontent.com/umarajabokep-dot/umaaff/refs/heads/main/links.txt";
       const cache = caches.default;
       const cacheKey = new Request(RAW_URL, { cf: { cacheTtl: 60 } });
 
